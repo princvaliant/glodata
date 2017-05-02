@@ -1,0 +1,169 @@
+/* CSS declarations go here */
+.logo-btn {
+    background-color: darkblue !important;
+    border-color: darkblue !important;
+    background-image: none;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    margin-right: 50px !important;
+}
+
+.logo-btn .x-btn-inner {
+    font-size: 15px;
+}
+
+.canvasjsdiv {
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.canvasjsdiv2 {
+    display: block;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.canvasjsdiv3 {
+    display: block;
+    width: 400px;
+    height: 250px;
+    position: relative;
+}
+
+.bi {
+    color: #6666FF;
+}
+
+.gi {
+    color: #44CC44;
+}
+
+.ri {
+    color: #CC4444;
+}
+
+.di {
+    color: #4b4b4b;
+}
+
+.yi {
+    color: #aca413;
+}
+
+div.workflow {
+    float: left;
+    padding: 0px 0px;
+    margin: 8px;
+    text-align: center;
+    line-height: 14px;
+    color: #333;
+    font-size: 12px;
+    font-family: "Helvetica Neue", sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.min-row-height .x-boundlist-item {
+    min-height: 24px;
+}
+
+div.workflow svg {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border: 0px solid #AAA;
+}
+
+div.workflow-hover {
+    background-color: #eee;
+}
+
+div.workflow.x-item-selected {
+    background-color: #D3E1F1 !important;
+}
+
+div.workflow strong {
+    color: #000;
+    display: block;
+}
+
+div.workflow span {
+    color: #999;
+}
+
+.x-tool-copy {
+    top: -10;
+    left: -10;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACm0lEQVR42nWT30tTYRjHv2fnbGf+2DwXbqYY21W17IcZza7sJoNMt3RTUbKgCLoPurI/wKu6lYiKICPTnFASQeK0CSO0u5Y0y5GrKXSYvjj3q/W8LyZRxwcOZ4f3fT7P9/s8zyQAF71e753a2loNBvGLIhwOv02n0wP0uf3vuUTJX6Zev3Fv53JG+ZDoeReeQXd3sJ9+jvx37vf79QePHmtzc7MwmUwwm83IEUyWZfE+3NCA76vfcKal5QbdHzYEPBl5qn1aWoJZUVAqlaBarchsbcFiscBut2M5/hlDQ0Psbwvr6+sb0Wj0lgA8Gx3VIpEIyZVQv79eJHI1JkWlqyVDa6rFDH9He1IAxsbGtMXFD5RECEmixpVQs68G6Q2GOFUvLy9HJpNBWVnZjj0FXu8pXL92lQnA+Pi4FovFkMvnUVlZCbbJUO2oJqAMXdeFLa6qUCwIlVVVVdA0DZcHLjHJ5/PpLyYmtLnZWT4y0bw8gVwuN2RFxspKAqpqgdNZI+zwO3V1dVCoX/19fUzq6PDpEwSIxT4K+bya0+nEJmNC8lpqjWRnhYJ8oYASAazUZI/Hg97eXiZdaG/XQ6GQtriwIOicXCwWYbPZ4HA4kEwmhSphgQD8jPfE5XKhp6eHSefb2vTJ0KQ2Px8RDVJVVajgyXyE8eVl8c0r8x3hDy9yvLER3cEgk040NX2dnp5xWa2W3RFlszkkV1cJUo1UKoWKigpRnXsXI6Qi5BfBQIDxTQ00Np28SxV3/wtkRbk9OGg9dPAAjTEuEvhe/LHgdrtFn7p2AEZx5eWrqYfHjh5BIpHYXW1ui4+Zv2Wy0dnZtScgMHzv/nOas5iMUWQJeq619cdeANVmt480N58+K/H1NAhd/8neR6M3fwPHHx0cwdmKLQAAAABJRU5ErkJggg==') !important;
+}
+
+.x-tool-paste {
+    top: -10;
+    left: -10;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACqUlEQVR42oWTTUgUYRjH//PO7OyuRpmbjWxhftCGhyCoVEwhUIsIL53EQ+HRQ0FoYZ3S2IoQg4qgsEOHQvo4FBGsSUSJitQhlAxiXWWz3ZyZ3VFzc757Z9evzaIXHmbeeef5zf//PM8w+P8qr6queV5SUup/+qSvQ9e02+sPmX8k7SAELRxBbtnu8oZHfY/3Dw4OIh6LLV6/1nUHNgzdxAB9783fAKRyDzfR284HPHlF8Fa/hovPhWVbIAxBcqwTntg93H9lW5cfLtWuAFgaW5fvha6T7vGmwy4sWTlIWb4sOsf8wmZWQkoF9rX+PO8AihobG9/V1dXvcgwZhomAXwVnidipvQBU8a8eNd3GgdPzHQ6gLTId7bapPGfZto0lVYOUnEdZgYGZUDMYbSNEN4BDbck04GIsPhscGh5GKpWCaZpgGAZFxWUoLS2GPj+FaOgUWE3KVmAC9RfkDODHrBRMKkoaQHNhWTa2CwJUTadSTUx8eoucz+fAEmadAhvHL4kZwKwkByVRgiiKILR/hCVgWZb2ykD+tgLE4t+ghJrgYtcAhmnjxJV4BiDJiaCTPDc3l7ZgWVYa5KgRhEJo6iI+9h6Bm1ungFpo7p5ZBiSSwYQsQZIkWsR0KeFy8eB5HoFAAPHv0xjoqYfXla2g5VY0A5ApQKbJckIGx3Gg4wqWXikHeXlb6DMGL682IIcnWYDWu1NrgGQiQS0oVDahsgWqxKITyMOX70MkEsazzqPY5GZXAaphoe3BZPtqDXRNhUI74SgghIXH46ZfMeH3+zEZDuPmmQbkuldmBRj5qiy8/6JUOICz4ch0j1DgSxfPCce71+tdHayR0Q+orqq4QbdDywKcSo3SiDqAwoMVlaGamtq9dJQ3/FwUYA/09w+Nj48do9uFP89/A2MKOyJ7KeatAAAAAElFTkSuQmCC') !important;
+
+}
+
+.loginback {
+    background-image: url('images/loginback.jpg');
+}
+
+.iconDarkBlue {
+    /* color: #2222FF; */
+}
+
+.wafermap {
+    width: 300px;
+    height: 340px;
+    position: relative;
+}
+
+.wafermapTooltip {
+    position: absolute;
+    left: 44px;
+    top: 0;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 3px;
+    line-height: 14px;
+    display: block
+}
+
+.wafermapLegend {
+    background: white;
+    position: absolute;
+    width: 260px;
+    bottom: 30px;
+    left: 20px;
+    height: 10px;
+    padding: 5px;
+}
+
+.wafermapMin {
+    float: left;
+}
+
+.wafermapMax {
+    float: right;
+}
+
+.udrivermap {
+    width: 700px;
+    height: 370px;
+    position: relative;
+    margin-left:10px;
+}
+
+.udrivermapLegend {
+    background: white;
+    position: absolute;
+    width: 660px;
+    bottom: 30px;
+    left: 5px;
+    height: 10px;
+    padding: 5px;
+}

@@ -1,0 +1,11 @@
+node_modules/
+.idea/**/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.deploy/mup.js
+.idea/libraries/meteor_packages_auto_import_browser.xml
+.idea/libraries/meteor_packages_auto_import_npm.xml
+server/config.js
+.idea/inspectionProfiles/
+.meteor/oracle/
+

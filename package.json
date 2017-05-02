@@ -1,0 +1,22 @@
+{
+  "name": "hello",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.22.0",
+    "base64-js": "^1.2.0",
+    "bcrypt": "^0.8.7",
+    "chokidar": "^1.6.1",
+    "clipboard": "^1.6.1",
+    "d3-array": "^1.1.1",
+    "d3-scale": "^1.0.5",
+    "fibers": "^1.0.14",
+    "heatmap.js": "^2.0.5",
+    "lodash": "^4.17.4",
+    "meteor-node-stubs": "~0.2.0",
+    "unstream": "^2.0.0",
+    "xlsx": "^0.9.9"
+  }
+}
